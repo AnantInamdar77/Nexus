@@ -3,7 +3,7 @@
 **Welcome to Nexus!**  
 A community forum for freelancers to connect, collaborate, and find opportunities.
 
-![Nexus Banner](./assets/banner.jpg)
+![Nexus Banner](https://github.com/AnantInamdar77/Nexus/blob/main/IMG_20241107_202938.jpg) 
 
 ---
 
