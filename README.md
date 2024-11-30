@@ -1,106 +1,79 @@
-# Nexus - Freelance Community Forum
+### 1. **Login Page**
+![Login Page](./path-to-images/login-page.jpg)
 
-**Welcome to Nexus!**  
-A community forum for freelancers to connect, collaborate, and find opportunities.
-
-![Nexus Banner](https://github.com/AnantInamdar77/Nexus/blob/main/IMG_20241107_202938.jpg) 
-
----
-
-## Have a minute to join a community? Here's your chance!
-
-Nexus is a place where freelancers from around the world can connect, share ideas, find work, and collaborate on projects. This project was created as part of our Hackathon, and it aims to provide a centralized platform for freelance professionals to grow and succeed together.
+**Description**:  
+The login page allows users to sign in with their credentials. New users can navigate to the registration page to create an account. Features a minimalist and user-friendly design.
 
 ---
 
-## Features
+### 2. **Home Page**
+![Home Page](./path-to-images/home-page.jpg)
 
-- **Community Forum**: Engage in discussions, share tips, and connect with like-minded freelancers.
-- **Job Board**: Find freelance gigs and post job opportunities.
-- **Profile and Portfolio**: Showcase your skills and previous work.
-- **Direct Messaging**: Communicate and collaborate seamlessly.
-- **Resources and Guides**: Access valuable resources to help you grow your freelancing career.
+**Description**:  
+The home page serves as the central hub for freelancers. Users can view trending topics, recent posts, and updates from the community. It is designed to help users quickly access key features of the platform.
 
 ---
 
-## How to Install
+### 3. **Profile Page**
+![Profile Page](./path-to-images/profile-page.jpg)
 
-To get this project up and running on your local machine, follow these steps:
-
-1. **Clone the Repository**
-
-    ```bash
-    git clone https://github.com/yourusername/nexus-forum.git
-    cd nexus-forum
-    ```
-
-2. **Install Dependencies**
-
-    ```bash
-    yarn install
-    ```
-
-3. **Start the Development Server**
-
-    ```bash
-    yarn start
-    ```
-
-    This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will automatically reload if you make edits. You’ll also see any lint errors in the console.
+**Description**:  
+The profile page showcases user details, including their skills, bio, and activity. This page serves as a personal portfolio for freelancers to highlight their work and expertise.
 
 ---
 
-## Quick Setup to Make It Your Website
+### 4. **Chat Page**
+![Chat Page](./path-to-images/chat-page.jpg)
 
-### Configuration
-
-To personalize Nexus with your details, follow these steps:
-
-1. **Open the `profileConfig.js` file**
-
-   - Locate the file in the `src/config` directory.
-   - Edit the social media links and other profile details with your own.
-
-2. **Upload Your Profile Image and Media**
-
-   - Replace the profile image: `src/assets/profile.png`
-   - Add any design images or media for your UI showcase: `src/assets/ui-design.jpg`
-
-3. **Upload Resume or Other Documents**
-
-   - If relevant, replace the default resume file at `src/assets/RESUME.pdf`.
+**Description**:  
+The chat page provides real-time messaging functionality powered by Socket.IO. Users can exchange messages, share files, and stay connected with other freelancers seamlessly.
 
 ---
 
-## Deployment to Netlify
+### 5. **Forum Page**
+![Forum Page](./path-to-images/forum-page.jpg)
 
-Deploy Nexus to Netlify for easy sharing and collaboration. Click the button below to deploy instantly on your own Netlify account.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yourusername/nexus-forum)
-
----
-
-## Room for Improvement
-
-Here’s what we plan to work on in the future:
-
-- **Enhanced Messaging Features**
-- **More Profile Customization Options**
-- **Advanced Job Filters and Recommendations**
-- **Mobile App Development**
+**Description**:  
+The forum page allows users to create and participate in discussion threads. It fosters community engagement and collaboration by enabling freelancers to share their knowledge and experiences.
 
 ---
 
-## Contributing
+### 6. **Settings Page**
+![Settings Page](./path-to-images/settings-page.jpg)
 
-We welcome contributions from the community! Feel free to fork the repository and submit a pull request with your improvements or suggestions.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+**Description**:  
+The settings page lets users customize their preferences, manage account details, and adjust notification settings.
 
 ---
 
-Thank you for being a part of the Nexus community!
+### 7. **Notifications**
+![Notifications](./path-to-images/notifications.jpg)
+
+**Description**:  
+Stay updated with real-time notifications for new messages, forum posts, and updates from the community.
+
+---
+
+### 8. **Admin Dashboard**
+![Admin Dashboard](./path-to-images/admin-dashboard.jpg)
+
+**Description**:  
+The admin dashboard enables moderators to manage user accounts, monitor community activity, and address reports or issues efficiently.
+
+---
+
+### 9. **Registration Page**
+![Registration Page](./path-to-images/registration-page.jpg)
+
+**Description**:  
+New users can sign up on the registration page. It includes fields for entering user details, uploading a profile picture, and setting a password.
+
+---
+
+### 10. **Error Page**
+![Error Page](./path-to-images/error-page.jpg)
+
+**Description**:  
+A custom error page provides users with helpful options when they encounter issues like broken links or server errors.
+
+---
