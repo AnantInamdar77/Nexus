@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Messaging App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="users-section">
+      <h2>Users</h2>
+      <ul id="users-list"></ul>
+    </div>
+    <div class="chat-section">
+      <div class="messages" id="messages"></div>
+      <div class="input-section">
+        <input type="text" id="message" placeholder="Type a message..." />
+        <button id="sendGroup">Send to Group</button>
+        <button id="sendPrivate">Send to User</button>
+      </div>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
